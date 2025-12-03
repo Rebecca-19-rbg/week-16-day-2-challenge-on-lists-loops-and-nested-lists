@@ -94,6 +94,10 @@ else:
 # ### 5. Quantity Organization
 # Re-organize the quantity list from **smallest to largest** and display the final result.
 
+num_only.sort()
+print(num_only)
+
+
 # ---
 
 # ## Challenge Extension: Classroom Storage Grid
