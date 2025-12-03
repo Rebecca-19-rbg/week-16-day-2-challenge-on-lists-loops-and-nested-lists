@@ -82,7 +82,7 @@ print(num_only)
 # - Otherwise label the order:
 #   “Orders within normal limits.”
 
-if num_only > 5:
+if any(quantity > 5 for quantity in num_only):
     print("Large order detected!")
 else:
     print("Orders within normal limits.")
